@@ -129,7 +129,8 @@ public class TesterTM {
 				} catch (Exception err) {
 					System.out.println(err);
 					err.printStackTrace();
-				}
+					sc.nextLine();
+			}
 
 			}
 
